@@ -1,0 +1,16 @@
+{
+  "name": "kmart-campus-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KMart - Campus Store Management System (root scripts)",
+  "scripts": {
+    "install-all": "npm install --prefix backend",
+    "start": "npm --prefix backend run start",
+    "dev": "npm --prefix backend run dev",
+    "seed": "npm --prefix backend run seed",
+    "create-admin": "npm --prefix backend run create-admin",
+    "test": "npm --prefix backend test",
+    "test:unit": "npm --prefix backend run test:unit"
+  },
+  "engines": { "node": ">=18" }
+}
